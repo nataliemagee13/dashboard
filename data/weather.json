@@ -1,9 +1,4 @@
 {
-  "location": "",
-  "temperature": null,
-  "conditions": ""
-}
-{
   "location": "Fort Worth, TX",
   "temperature": 72,
   "condition": "Partly Cloudy",
