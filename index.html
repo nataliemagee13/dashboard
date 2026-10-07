@@ -11,15 +11,25 @@
         <h1>Natalie's Dashboard</h1>
         <button type="button" id="theme-toggle" class="btn btn-primary">Toggle dark mode</button>
     </header>
-    <main>
+    <main class="dashboard">
         <section class="widget">
             <h2>Sample Weather</h2>
             <div id="weather-display">Loading weather…</div>
         </section>
         <section class="widget">
-            <h2>Words from Taylor</h2>
+            <h2>Daily Taylor</h2>
             <div id="quote-display">Loading quotes…</div>
-            <button type="button" id="new-quote-button" class="btn btn-primary" disabled>New Quote</button>
+            <button type="button" id="new-quote-button" class="btn btn-primary" disabled>New Song</button>
+        </section>
+        <section class="widget task-widget">
+            <h2>Tasks</h2>
+            <form id="task-form" class="task-form">
+                <label for="task-input" class="sr-only">New task</label>
+                <input id="task-input" type="text" placeholder="Add a task" autocomplete="off" required>
+                <button type="submit" class="btn btn-primary">Add Task</button>
+            </form>
+            <div id="task-stats" class="task-stats" aria-live="polite"></div>
+            <div id="task-list" class="task-list"></div>
         </section>
     </main>
     <script src="js/app.js"></script>

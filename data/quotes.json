@@ -1,62 +1,256 @@
 [
     {
         "text": "Never be ashamed of trying. Effortlessness is a myth.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "Your life is going to be full of mistakes, and I hope that you make them.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "Learn to live alongside cringe.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "Whatever you do in life, be nice to people.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "Being nice to people, being kind, being empathetic is a way of showing people that you care.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "Make the mistakes that make you grow.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "Accept the fact that you're going to be wrong.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "No matter how hard you try to avoid it, you will inevitably stumble.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "You are now doing something that is very scary and very brave and very hard.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "I leave you with this: We are all writers.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "Life can be heavy, especially if you try to carry it all at once.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     },
     {
         "text": "I've been making mistakes since I was 15. I've made a lot of them.",
+        "type": "quote",
         "author": "Taylor Swift",
         "source": "2022 NYU Commencement Address"
     }
+    ,{"text":"Tim McGraw","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"Picture to Burn","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"Teardrops on My Guitar","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"A Place in This World","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"Cold as You","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"The Outside","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"Tied Together with a Smile","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"Stay Beautiful","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"Should've Said No","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"Mary's Song (Oh My My My)","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"Our Song","author":"Taylor Swift","source":"Taylor Swift, 2006","type":"song"}
+    ,{"text":"Fearless","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Fifteen","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Love Story","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Hey Stephen","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"White Horse","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"You Belong with Me","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Breathe","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Tell Me Why","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"The Way I Loved You","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Forever & Always","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"The Best Day","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Change","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Jump Then Fall","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Untouchable","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Come In with the Rain","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"SuperStar","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"The Other Side of the Door","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"You All Over Me","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Mr. Perfectly Fine","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"We Were Happy","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"That's When","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Don't You","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Bye Bye Baby","author":"Taylor Swift","source":"Fearless (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Mine","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Sparks Fly","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Back to December","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Speak Now","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Dear John","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Mean","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"The Story of Us","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Never Grow Up","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Enchanted","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Better than Revenge","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Innocent","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Haunted","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Last Kiss","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Ours","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Superman","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Electric Touch","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"When Emma Falls in Love","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"I Can See You","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Castles Crumbling","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Foolish One","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Timeless","author":"Taylor Swift","source":"Speak Now (Taylor's Version), 2023","type":"song"}
+    ,{"text":"State of Grace","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Red","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Treacherous","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"I Knew You Were Trouble.","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"All Too Well","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"22","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"I Almost Do","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"We Are Never Ever Getting Back Together","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Stay Stay Stay","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"The Last Time","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Holy Ground","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Sad Beautiful Tragic","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"The Lucky One","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Everything Has Changed","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Starlight","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Begin Again","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"The Moment I Knew","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Come Back... Be Here","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Better Man","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Nothing New","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Babe","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Message in a Bottle","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"I Bet You Think About Me","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Forever Winter","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Run","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"The Very First Night","author":"Taylor Swift","source":"Red (Taylor's Version), 2021","type":"song"}
+    ,{"text":"Welcome to New York","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Blank Space","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Style","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Out of the Woods","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"All You Had to Do Was Stay","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Shake It Off","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"I Wish You Would","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Bad Blood","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Wildest Dreams","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"How You Get the Girl","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"This Love","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"I Know Places","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Clean","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Wonderland","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"You Are in Love","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"New Romantics","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Slut!","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Say Don't Go","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Now That We Don't Talk","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Suburban Legends","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"Is It Over Now?","author":"Taylor Swift","source":"1989 (Taylor's Version), 2023","type":"song"}
+    ,{"text":"...Ready for It?","author":"Taylor Swift","source":"reputation, 2017","type":"song"}
+    ,{"text":"End Game","author":"Taylor Swift","source":"reputation, 2017","type":"song"}
+    ,{"text":"I Did Something Bad","author":"Taylor Swift","source":"reputation, 2017","type":"song"}
+    ,{"text":"Don't Blame Me","author":"Taylor Swift","source":"reputation, 2017","type":"song"}
+    ,{"text":"Delicate","author":"Taylor Swift","source":"reputation, 2017","type":"song"}
+    ,{"text":"Look What You Made Me Do","author":"Taylor Swift","source":"reputation, 2017","type":"song"}
+    ,{"text":"So It Goes...","author":"Taylor Swift","source":"reputation, 2017","type":"song"}
+    ,{"text":"Gorgeous","author":"Taylor Swift","source":"reputation, 2017","type":"song"}
+    ,{"text":"Getaway Car","author":"Taylor Swift","source":"reputation, 2017","type":"song"}
+    ,{"text":"New Year's Day","author":"Taylor Swift","source":"reputation, 2017","type":"song"}
+    ,{"text":"I Forgot That You Existed","author":"Taylor Swift","source":"Lover, 2019","type":"song"}
+    ,{"text":"Cruel Summer","author":"Taylor Swift","source":"Lover, 2019","type":"song"}
+    ,{"text":"Lover","author":"Taylor Swift","source":"Lover, 2019","type":"song"}
+    ,{"text":"The Man","author":"Taylor Swift","source":"Lover, 2019","type":"song"}
+    ,{"text":"The Archer","author":"Taylor Swift","source":"Lover, 2019","type":"song"}
+    ,{"text":"I Think He Knows","author":"Taylor Swift","source":"Lover, 2019","type":"song"}
+    ,{"text":"Miss Americana & the Heartbreak Prince","author":"Taylor Swift","source":"Lover, 2019","type":"song"}
+    ,{"text":"Paper Rings","author":"Taylor Swift","source":"Lover, 2019","type":"song"}
+    ,{"text":"Cornelia Street","author":"Taylor Swift","source":"Lover, 2019","type":"song"}
+    ,{"text":"Daylight","author":"Taylor Swift","source":"Lover, 2019","type":"song"}
+    ,{"text":"the 1","author":"Taylor Swift","source":"folklore, 2020","type":"song"}
+    ,{"text":"cardigan","author":"Taylor Swift","source":"folklore, 2020","type":"song"}
+    ,{"text":"the last great american dynasty","author":"Taylor Swift","source":"folklore, 2020","type":"song"}
+    ,{"text":"exile","author":"Taylor Swift","source":"folklore, 2020","type":"song"}
+    ,{"text":"my tears ricochet","author":"Taylor Swift","source":"folklore, 2020","type":"song"}
+    ,{"text":"mirrorball","author":"Taylor Swift","source":"folklore, 2020","type":"song"}
+    ,{"text":"august","author":"Taylor Swift","source":"folklore, 2020","type":"song"}
+    ,{"text":"this is me trying","author":"Taylor Swift","source":"folklore, 2020","type":"song"}
+    ,{"text":"illicit affairs","author":"Taylor Swift","source":"folklore, 2020","type":"song"}
+    ,{"text":"betty","author":"Taylor Swift","source":"folklore, 2020","type":"song"}
+    ,{"text":"willow","author":"Taylor Swift","source":"evermore, 2020","type":"song"}
+    ,{"text":"champagne problems","author":"Taylor Swift","source":"evermore, 2020","type":"song"}
+    ,{"text":"gold rush","author":"Taylor Swift","source":"evermore, 2020","type":"song"}
+    ,{"text":"'tis the damn season","author":"Taylor Swift","source":"evermore, 2020","type":"song"}
+    ,{"text":"no body, no crime","author":"Taylor Swift","source":"evermore, 2020","type":"song"}
+    ,{"text":"happiness","author":"Taylor Swift","source":"evermore, 2020","type":"song"}
+    ,{"text":"dorothea","author":"Taylor Swift","source":"evermore, 2020","type":"song"}
+    ,{"text":"coney island","author":"Taylor Swift","source":"evermore, 2020","type":"song"}
+    ,{"text":"ivy","author":"Taylor Swift","source":"evermore, 2020","type":"song"}
+    ,{"text":"evermore","author":"Taylor Swift","source":"evermore, 2020","type":"song"}
+    ,{"text":"Lavender Haze","author":"Taylor Swift","source":"Midnights, 2022","type":"song"}
+    ,{"text":"Maroon","author":"Taylor Swift","source":"Midnights, 2022","type":"song"}
+    ,{"text":"Anti-Hero","author":"Taylor Swift","source":"Midnights, 2022","type":"song"}
+    ,{"text":"Snow on the Beach","author":"Taylor Swift","source":"Midnights, 2022","type":"song"}
+    ,{"text":"You're on Your Own, Kid","author":"Taylor Swift","source":"Midnights, 2022","type":"song"}
+    ,{"text":"Midnight Rain","author":"Taylor Swift","source":"Midnights, 2022","type":"song"}
+    ,{"text":"Question...?","author":"Taylor Swift","source":"Midnights, 2022","type":"song"}
+    ,{"text":"Vigilante Shit","author":"Taylor Swift","source":"Midnights, 2022","type":"song"}
+    ,{"text":"Bejeweled","author":"Taylor Swift","source":"Midnights, 2022","type":"song"}
+    ,{"text":"Mastermind","author":"Taylor Swift","source":"Midnights, 2022","type":"song"}
+    ,{"text":"Fortnight","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"The Tortured Poets Department","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"My Boy Only Breaks His Favorite Toys","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"Down Bad","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"So Long, London","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"But Daddy I Love Him","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"Fresh Out the Slammer","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"Florida!!!","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"Who's Afraid of Little Old Me?","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"I Can Fix Him (No Really I Can)","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"loml","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"I Can Do It with a Broken Heart","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"The Smallest Man Who Ever Lived","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"The Alchemy","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"Clara Bow","author":"Taylor Swift","source":"The Tortured Poets Department, 2024","type":"song"}
+    ,{"text":"The Black Dog","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"Imgonnagetyouback","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"The Albatross","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"Chloe or Sam or Sophia or Marcus","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"How Did It End?","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"So High School","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"I Hate It Here","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"thanK you aIMee","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"I Look in People's Windows","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"The Prophecy","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"Cassandra","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"Peter","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"The Bolter","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"Robin","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
+    ,{"text":"The Manuscript","author":"Taylor Swift","source":"The Tortured Poets Department: The Anthology, 2024","type":"song"}
 ]
