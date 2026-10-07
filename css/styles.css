@@ -48,10 +48,15 @@ textarea {
     --space-lg: 1.5rem;
     --space-xl: 2rem;
     --space-2xl: 3rem;
+    --space-control-y: 0.7rem;
+    --space-control-x: 1rem;
 
     --content-width: 72rem;
     --radius-sm: 0.45rem;
     --radius-md: 0.8rem;
+    --radius-control: 0.65rem;
+    --dashboard-gap: 20px;
+    --dashboard-width: 1200px;
 }
 
 body.theme-dark {
@@ -104,10 +109,10 @@ textarea:focus-visible {
 
 /* 04. BUTTONS */
 .btn {
-    padding: 0.7rem 1rem;
+    padding: var(--space-control-y) var(--space-control-x);
     font-weight: 700;
     border: 2px solid var(--color-text);
-    border-radius: 0.65rem;
+    border-radius: var(--radius-control);
     cursor: pointer;
     transition: background 0.2s ease, border-color 0.2s ease;
 }
@@ -147,8 +152,8 @@ button:disabled {
 .dashboard {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
+    gap: var(--dashboard-gap);
+    max-width: var(--dashboard-width);
     margin: 0 auto;
 }
 
@@ -189,7 +194,7 @@ button:disabled {
 .task-form input {
     min-width: 0;
     flex: 1;
-    padding: 0.7rem;
+    padding: var(--space-control-y);
     color: var(--color-text);
     background: var(--color-surface);
     border: 2px solid var(--color-border);
