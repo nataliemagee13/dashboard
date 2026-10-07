@@ -62,14 +62,67 @@ newQuoteButton.addEventListener('click', displayRandomQuote);
 function loadWeather() {
     const weatherDisplay = document.getElementById('weather-display');
     weatherDisplay.innerHTML = `<div class="loading-state"><div class="spinner"></div><p>Loading weather…</p></div>`;
-    fetch('./data/weather.json')
-        .then(response => response.json())
-        .then(data => displayWeather(data))
+        const liveWeatherUrl = 'https://api.open-meteo.com/v1/forecast?latitude=32.7555&longitude=-97.3308&current=temperature_2m,relative_humidity_2m,wind_speed_10m,weather_code&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=America%2FChicago';
+
+        fetch(liveWeatherUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Live weather request failed: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => displayWeather(formatLiveWeather(data)))
         .catch(error => {
-            console.error('Error loading weather:', error);
-            displayWeatherError();
+                console.error('Error loading live weather:', error);
+                fetch('./data/weather.json')
+                    .then(response => response.json())
+                    .then(data => displayWeather(data))
+                    .catch(fallbackError => {
+                        console.error('Error loading fallback weather:', fallbackError);
+                        displayWeatherError();
+                    });
         });
 }
+
+    function getWeatherDescription(weatherCode) {
+        const descriptions = {
+            0: ['Clear', '☀️'],
+            1: ['Mostly clear', '🌤️'],
+            2: ['Partly cloudy', '⛅'],
+            3: ['Overcast', '☁️'],
+            45: ['Foggy', '🌫️'],
+            48: ['Foggy', '🌫️'],
+            51: ['Light drizzle', '🌦️'],
+            53: ['Drizzle', '🌦️'],
+            55: ['Heavy drizzle', '🌧️'],
+            61: ['Light rain', '🌦️'],
+            63: ['Rain', '🌧️'],
+            65: ['Heavy rain', '🌧️'],
+            71: ['Light snow', '🌨️'],
+            73: ['Snow', '❄️'],
+            75: ['Heavy snow', '❄️'],
+            80: ['Rain showers', '🌦️'],
+            81: ['Rain showers', '🌧️'],
+            82: ['Heavy rain showers', '🌧️'],
+            95: ['Thunderstorm', '⛈️'],
+            96: ['Thunderstorms', '⛈️'],
+            99: ['Thunderstorms', '⛈️']
+        };
+
+        return descriptions[weatherCode] || ['Current conditions', '🌡️'];
+    }
+
+    function formatLiveWeather(data) {
+        const [condition, icon] = getWeatherDescription(data.current.weather_code);
+        return {
+            location: 'Fort Worth, TX',
+            temperature: Math.round(data.current.temperature_2m),
+            condition,
+            icon,
+            humidity: data.current.relative_humidity_2m,
+            windSpeed: Math.round(data.current.wind_speed_10m)
+        };
+    }
 
 function displayWeather(weather) {
     document.getElementById('weather-display').innerHTML = `
