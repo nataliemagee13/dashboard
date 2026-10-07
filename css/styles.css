@@ -91,6 +91,16 @@ h3 {
     line-height: 1.1;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-md);
+    max-width: var(--dashboard-width);
+    margin: 0 auto;
+    padding: var(--space-lg) var(--space-md);
+}
+
 p:last-child {
     margin-bottom: 0;
 }
@@ -149,6 +159,11 @@ button:hover {
 
 .btn-primary:hover {
     background: var(--color-danger);
+}
+
+#theme-toggle {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.8rem;
 }
 
 .btn-danger {
@@ -278,6 +293,11 @@ button:disabled {
 }
 
 @media (max-width: 768px) {
+    header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
     .dashboard {
         grid-template-columns: 1fr;
     }
