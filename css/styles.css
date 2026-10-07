@@ -205,6 +205,16 @@ button:disabled {
     font-size: 1.25rem;
 }
 
+.song-label {
+    display: block;
+    color: var(--color-muted);
+    font-weight: 700;
+}
+
+.song-title {
+    margin-top: var(--space-xs);
+}
+
 .quote-author {
     color: var(--color-text);
     font-weight: 700;

@@ -30,10 +30,13 @@ function displayRandomQuote() {
 
     currentQuoteIndex = randomIndex;
     const quote = allQuotes[randomIndex];
-    const quoteText = quote.type === 'song' ? `Song of the Day: ${quote.text}` : quote.text;
-    document.getElementById('quote-display').innerHTML = `
-        <blockquote class="quote-text">“${quoteText}”</blockquote>
-        <p class="quote-author">— ${quote.author}<br><small class="quote-source">${quote.source}</small></p>`;
+    const quoteDisplay = quote.type === 'song'
+        ? `<small class="song-label">Song of the Day:</small>
+           <p class="quote-text song-title">${quote.text}</p>
+           <p class="quote-source">${quote.source}</p>`
+        : `<blockquote class="quote-text">“${quote.text}”</blockquote>
+           <p class="quote-author">— ${quote.author}<br><small class="quote-source">${quote.source}</small></p>`;
+    document.getElementById('quote-display').innerHTML = quoteDisplay;
 }
 
 function displayQuotesError() {
