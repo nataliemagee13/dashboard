@@ -60,6 +60,8 @@ function loadQuotes() {
 newQuoteButton.addEventListener('click', displayRandomQuote);
 
 function loadWeather() {
+    const weatherDisplay = document.getElementById('weather-display');
+    weatherDisplay.innerHTML = `<div class="loading-state"><div class="spinner"></div><p>Loading weather…</p></div>`;
     fetch('./data/weather.json')
         .then(response => response.json())
         .then(data => displayWeather(data))
