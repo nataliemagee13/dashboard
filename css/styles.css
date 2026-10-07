@@ -136,6 +136,30 @@ button:hover {
     font-weight: 700;
 }
 
+button:disabled {
+    background: var(--color-surface-alt);
+    border-color: var(--color-border);
+    color: var(--color-muted);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.quote-text {
+    color: var(--color-text);
+    font-size: 1.25rem;
+}
+
+.quote-author {
+    color: var(--color-text);
+    font-weight: 700;
+}
+
+.quote-source {
+    display: block;
+    color: var(--color-muted);
+    font-size: 0.875rem;
+}
+
 /* 05. WIDGET */
 .widget {
     padding: 1.2rem 1.2rem 1rem;
